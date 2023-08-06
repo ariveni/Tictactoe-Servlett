@@ -1,0 +1,55 @@
+@charset "UTF-8";
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  text-align: center;
+}
+
+h1 {
+  color: #007bff;
+}
+.main{
+	 display: inline-block;
+  	margin-top: 20px;
+  	background-color: #fff;
+  	padding: 20px;
+  	border-radius: 8px;
+  	box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+	
+}
+
+
+input[type="text"],
+input[type="submit"] {
+  padding: 8px;
+  font-size: 16px;
+}
+
+.board-container {
+  margin-top: 20px;
+  display: inline-block;
+}
+
+.square-table {
+  border-collapse: collapse;
+  border: 2px solid #007bff;
+}
+
+.cell {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 24px;
+  font-weight: bold;
+  border: 1px solid #007bff;
+}
+
+/* Styling for the cells with 'X' and 'O' */
+.cell.x {
+  color: #ff5722;
+}
+
+.cell.o {
+  color: #4caf50;
+}
